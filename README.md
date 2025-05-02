@@ -23,10 +23,6 @@
 
 task7_external_api/ ├── views/ │ └── weather.ejs ├── server.js ├── package.json ├── .env
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🌦 Features
@@ -44,22 +40,15 @@ Edit
 ## 🧾 Setup
 
 1. Add your `.env` file:
-WEATHER_API_KEY=your_api_key_here
-
-arduino
-Copy
-Edit
+   WEATHER_API_KEY=your_api_key_here
 
 2. Install & run:
-```bash
-npm install
-node server.js
-Visit:
-
-arduino
-Copy
-Edit
-http://localhost:3000/
+   ```bash
+   npm install
+   node server.js
+3. Visit:
+   ```arduino
+   http://localhost:3000/
 🔍 Example Query
 Input: Hyderabad
 Output: It is 34°C with clear sky in Hyderabad.
